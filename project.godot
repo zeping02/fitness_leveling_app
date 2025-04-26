@@ -11,13 +11,14 @@ config_version=5
 [application]
 
 config/name="fitness_leveling_app"
-run/main_scene="res://scenes/menu.tscn"
+run/main_scene="res://scenes/main_menu.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 
 [display]
 
-window/handheld/orientation=1
+window/size/viewport_width=648
+window/size/viewport_height=1152
 
 [rendering]
 
